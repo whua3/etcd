@@ -62,6 +62,7 @@ which don't need to be executed before releasing each version.
 4. Authenticate the image registry, refer to [Authentication methods](https://cloud.google.com/container-registry/docs/advanced-authentication).
    - `gcloud auth login`
    - `gcloud auth configure-docker`
+5. Make sure your Linux machine has at least 5GB free space.   
 
 ### Release steps
 
