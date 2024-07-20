@@ -79,13 +79,14 @@ which don't need to be executed before releasing each version.
    under project `etcd-development`, and images are pushed to `quay.io` and `gcr.io`.
 5. Publish the release page on GitHub
    - Set the release title as the version name
+   - Choose the correct release tag (generated from step #4)
    - Follow the format of previous release pages
    - Attach the generated binaries and signature file
    - Select whether it's a pre-release
    - Publish the release
 6. Announce to the etcd-dev googlegroup
 
-   Follow the format of previous release emails sent to etcd-dev@googlegroups.com, see an example below,
+   Follow the format of previous release emails sent to etcd-dev@googlegroups.com, see an example below. After sending out the email, ask one of the mainterners to approve the email from the pending list.
 ```
 Hello,
 
